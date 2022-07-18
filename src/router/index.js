@@ -64,7 +64,7 @@ const router = createRouter({
         {
           path: 'product/:id',
           name: 'product',
-          component: () => import('@/views/front/ProductView.vue'),
+          component: () => import('@/views/front/ProductsView.vue'),
           meta: {
             title: '購物網',
             login: false,
